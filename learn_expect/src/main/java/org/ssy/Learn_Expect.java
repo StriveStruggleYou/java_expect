@@ -5,6 +5,6 @@ package org.ssy;
  */
 public class Learn_Expect {
 
-  
+
 
 }
