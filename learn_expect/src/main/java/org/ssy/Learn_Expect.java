@@ -1,8 +1,10 @@
 package org.ssy;
 
-import static com.sun.jmx.snmp.ThreadContext.contains;
+
 import static net.sf.expectit.matcher.Matchers.eof;
 import static net.sf.expectit.matcher.Matchers.regexp;
+import static net.sf.expectit.matcher.Matchers.contains;
+
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
