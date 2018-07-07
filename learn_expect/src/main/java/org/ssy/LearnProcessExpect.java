@@ -14,7 +14,7 @@ import net.sf.expectit.ExpectBuilder;
 /**
  * Created by manager on 2018/7/2.
  */
-public class Learn_Expect {
+public class LearnProcessExpect {
 
   public static void main(String[] args) throws IOException, InterruptedException {
     Process process = Runtime.getRuntime().exec("/bin/sh");
