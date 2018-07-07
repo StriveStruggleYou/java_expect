@@ -12,5 +12,15 @@
   <groupId>org.ssy</groupId>
   <artifactId>learn_expect</artifactId>
 
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/net.sf.expectit/expectit-core -->
+    <dependency>
+      <groupId>net.sf.expectit</groupId>
+      <artifactId>expectit-core</artifactId>
+      <version>0.8.1</version>
+    </dependency>
+  </dependencies>
+
+
 
 </project>
