@@ -28,5 +28,12 @@
     </dependency>
 
 
+    <dependency>
+      <groupId>com.hierynomus</groupId>
+      <artifactId>sshj</artifactId>
+      <version>0.15.0</version>
+    </dependency>
+
+
   </dependencies>
 </project>
