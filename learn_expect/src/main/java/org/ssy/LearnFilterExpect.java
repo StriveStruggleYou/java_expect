@@ -72,6 +72,7 @@ public class LearnFilterExpect {
     System.out.println("Done");
 
     expect.close();
+    
   }
 
   private static Filter myFilter() {
