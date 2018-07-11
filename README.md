@@ -47,6 +47,8 @@ Last login: Fri Sep 7 10:47:43 2012 from 192.168.1.142
 
 源代码在:https://github.com/scijava/tcljava
 
+###根据这个，我们可以了解SSH的应答模式
+
 
 
 
