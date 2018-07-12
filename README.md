@@ -50,6 +50,20 @@ Last login: Fri Sep 7 10:47:43 2012 from 192.168.1.142
 ###根据这个，我们可以了解SSH的应答模式
 
 
+##ssh 不用登陆密码
+
+使用ssh key
+使用ssh key的目的是使得两台机器之间建立互信，从其中一台登陆到另一台时不需要密码。具体方式如下：
+
+1、先在主机A上创建密钥对
+ssh-keygen -t rsa
+这时可以在主机A上看到生成的秘钥~/.ssh/id_rsa 和公钥 ~/.ssh/ id_rsa.pub
+
+2、把主机A的公钥放在主机B上
+scp -r /root/.ssh/id_rsa.pub 192.168.31.147:/root/.ssh/authorized_keys
+
+
+
 
 
 
