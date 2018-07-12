@@ -63,6 +63,9 @@ ssh-keygen -t rsa
 scp -r /root/.ssh/id_rsa.pub 192.168.31.147:/root/.ssh/authorized_keys
 
 
+每一个跳板机都会管理其他主机生成的公钥
+
+
 
 
 
