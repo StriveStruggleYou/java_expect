@@ -18,9 +18,6 @@ import net.sf.expectit.filter.Filter;
 import net.sf.expectit.filter.Filters;
 import net.sf.expectit.matcher.Matchers;
 
-/**
- * Created by manager on 2018/7/8.
- */
 public class LearnFilterExpect {
 
   public static void main(String args[]) throws IOException {
