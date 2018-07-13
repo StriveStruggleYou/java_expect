@@ -22,7 +22,7 @@ public class LearnFilterExpect {
 
   public static void main(String args[]) throws IOException {
 
-    filter2();
+    filter1();
   }
 
 
