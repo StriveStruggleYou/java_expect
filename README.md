@@ -118,3 +118,6 @@ scp -r local_folder remote_ip:remote_folder
 
 
 
+
+
+
